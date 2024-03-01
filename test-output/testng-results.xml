@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-25T17:11:26 IST" name="Suite" finished-at="2024-02-25T17:11:48 IST" duration-ms="21863">
+  <suite started-at="2024-02-28T10:39:56 IST" name="Suite" finished-at="2024-02-28T10:40:17 IST" duration-ms="21173">
     <groups>
     </groups>
-    <test started-at="2024-02-25T17:11:26 IST" name="Test" finished-at="2024-02-25T17:11:48 IST" duration-ms="21863">
+    <test started-at="2024-02-28T10:39:56 IST" name="Test" finished-at="2024-02-28T10:40:17 IST" duration-ms="21173">
       <class name="com.SwagLabs.TestCases.OverviewPageTEst">
-        <test-method is-config="true" signature="AppSetUp()[pri:0, instance:com.SwagLabs.TestCases.OverviewPageTEst@68c9d179]" started-at="2024-02-25T17:11:26 IST" name="AppSetUp" finished-at="2024-02-25T17:11:29 IST" duration-ms="3557" status="PASS">
+        <test-method is-config="true" signature="AppSetUp()[pri:0, instance:com.SwagLabs.TestCases.OverviewPageTEst@4b8d604b]" started-at="2024-02-28T10:39:56 IST" name="AppSetUp" finished-at="2024-02-28T10:39:59 IST" duration-ms="3453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLabs.TestCases.OverviewPageTEst@68c9d179]" started-at="2024-02-25T17:11:29 IST" name="pageSetUp" finished-at="2024-02-25T17:11:47 IST" duration-ms="17687" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.SwagLabs.TestCases.OverviewPageTEst@4b8d604b]" started-at="2024-02-28T10:39:59 IST" name="pageSetUp" finished-at="2024-02-28T10:40:16 IST" duration-ms="17227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="verifyUrl()[pri:1, instance:com.SwagLabs.TestCases.OverviewPageTEst@68c9d179]" started-at="2024-02-25T17:11:47 IST" name="verifyUrl" finished-at="2024-02-25T17:11:47 IST" duration-ms="20" status="PASS">
+        <test-method signature="verifyUrl()[pri:1, instance:com.SwagLabs.TestCases.OverviewPageTEst@4b8d604b]" started-at="2024-02-28T10:40:16 IST" name="verifyUrl" finished-at="2024-02-28T10:40:16 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUrl -->
-        <test-method signature="verifyProductDetails()[pri:2, instance:com.SwagLabs.TestCases.OverviewPageTEst@68c9d179]" started-at="2024-02-25T17:11:47 IST" name="verifyProductDetails" finished-at="2024-02-25T17:11:47 IST" duration-ms="176" status="PASS">
+        <test-method signature="verifyProductDetails()[pri:2, instance:com.SwagLabs.TestCases.OverviewPageTEst@4b8d604b]" started-at="2024-02-28T10:40:16 IST" name="verifyProductDetails" finished-at="2024-02-28T10:40:17 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductDetails -->
-        <test-method signature="verifyCompleteProcess()[pri:3, instance:com.SwagLabs.TestCases.OverviewPageTEst@68c9d179]" started-at="2024-02-25T17:11:47 IST" name="verifyCompleteProcess" finished-at="2024-02-25T17:11:48 IST" duration-ms="364" status="PASS">
+        <test-method signature="verifyCompleteProcess()[pri:3, instance:com.SwagLabs.TestCases.OverviewPageTEst@4b8d604b]" started-at="2024-02-28T10:40:17 IST" name="verifyCompleteProcess" finished-at="2024-02-28T10:40:17 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCompleteProcess -->

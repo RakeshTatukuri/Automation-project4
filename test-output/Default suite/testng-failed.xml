@@ -3,11 +3,40 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Reportsdemo.TestListnersactual">
+      <class name="com.SwagLabs.TestCases.OverviewPageTEst">
         <methods>
-          <include name="test2"/>
+          <include name="verifyUrl"/>
+          <include name="AppSetUp"/>
+          <include name="verifyCompleteProcess"/>
+          <include name="pageSetUp"/>
+          <include name="verifyProductDetails"/>
         </methods>
-      </class> <!-- Reportsdemo.TestListnersactual -->
+      </class> <!-- com.SwagLabs.TestCases.OverviewPageTEst -->
+      <class name="com.SwagLabs.TestCases.CheckOutPageTEst">
+        <methods>
+          <include name="validateContinueProcess"/>
+          <include name="AppSetUp"/>
+          <include name="pageSetUp"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.CheckOutPageTEst -->
+      <class name="com.SwagLabs.TestCases.LoginPageTest">
+        <methods>
+          <include name="validationLogin"/>
+          <include name="AppSetUp"/>
+          <include name="verifyTitle"/>
+          <include name="verifyUrl"/>
+          <include name="pageSetUp"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.LoginPageTest -->
+      <class name="com.SwagLabs.TestCases.InventoryPageTest">
+        <methods>
+          <include name="verifyProductCount"/>
+          <include name="AppSetUp"/>
+          <include name="verifyProductNames"/>
+          <include name="validateAddToCart"/>
+          <include name="pageSetUp"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.InventoryPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
